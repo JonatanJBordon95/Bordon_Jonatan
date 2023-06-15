@@ -1,0 +1,6 @@
+
+let dias = ["Lunes" , "Martes" , "Miercoles" , "Jueves" , "Viernes" , "Sabado" , "Domingo"];
+for (let posicion of dias) {
+    document.write(dias + "</br>")
+    break;
+}
