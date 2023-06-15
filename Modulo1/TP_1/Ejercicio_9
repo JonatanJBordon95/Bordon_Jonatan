@@ -1,0 +1,4 @@
+let vocales = ["A" , "E" , "I", "O" , "U"]
+for (let letra of vocales){
+    document.write(letra + "</br>") 
+}
