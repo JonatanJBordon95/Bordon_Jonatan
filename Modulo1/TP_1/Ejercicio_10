@@ -1,0 +1,6 @@
+let meses = [ "Enero" , "Febrero" , "Marzo" , "Abril" , "Mayo" , "Junio" , "Julio" , "Agosto" , "Septiembre" , "Octubre" , "Noviembre" , "Diciembre"];
+let num = prompt ("Ingrese un nro del 1 al 12")
+While (parseInt (num) >= 1 && parseInt (num) <= 12 ); {
+
+    document.write (meses[num +1]);
+}
